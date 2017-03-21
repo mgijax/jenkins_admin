@@ -1,0 +1,71 @@
+#!/bin/sh
+#
+#  checkLog
+###########################################################################
+#
+#  Purpose:  This script will scan a given list of log files for specific
+#            terms that indicate that there may be an error condition.
+#
+#  Usage:
+#
+#      checkLog  logfiles
+#
+#      where
+#
+#          logfiles = one or more log files to scan (full paths)
+#
+#  Env Vars:  None
+#
+#  Inputs:  None
+#
+#  Outputs:  None
+#
+#  Exit Codes:
+#
+#      0:  Successful completion
+#      1:  Fatal error occurred
+#
+#  Assumes:  Nothing
+#
+#  Implementation:
+#
+#  Notes:  None
+#
+###########################################################################
+
+if [ $# -eq 0 ]
+then
+    echo "Usage: $0 Logfile(s)"
+    exit 1
+fi
+
+#
+# Define the terms to look for ("|" delimited for egrep).
+#
+TERMS="error|fail|fatal|exception|traceback"
+
+RC=0
+
+#
+# Check each file that was passed to the script. If egrep finds any of the
+# terms, the lines are sent to stdout to be captured by the calling script.
+# A non-zero (1) will be returned if any terms are found or a specified log
+# file does not exist.
+#
+for i in $*
+do
+    if [ -r $i ]
+    then
+        echo "Checking $i"
+        if [ `egrep -i "${TERMS}" $i | wc -l` -gt 0 ]
+        then
+            egrep -i "${TERMS}" $i
+            RC=1
+        fi
+    else
+        echo "File does not exist: $i "
+        RC=1
+    fi
+done
+
+exit ${RC}

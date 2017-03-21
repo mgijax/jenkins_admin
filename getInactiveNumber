@@ -1,0 +1,75 @@
+#!/bin/sh
+#
+#  getInactiveNumber
+###########################################################################
+#
+#  Purpose:  This script will determine which WI instance is inactive on
+#            the given server. It looks for the "wiinactive" sym link in
+#            the /usr/local/mgi/live directory and checks the directory
+#            that this link points to. It should end with a "1" or "2".
+#
+#  Usage:
+#
+#      getInactiveNumber  server
+#
+#      where
+#
+#          server = the name of the public or robot server where the WI
+#                   instance resides
+#
+#  Env Vars:  None
+#
+#  Inputs:  None
+#
+#  Outputs:
+#
+#      The inactive WI number (1 or 2) is sent to stdout.
+#
+#  Exit Codes:
+#
+#      0:  Successful completion
+#      1:  Fatal error occurred
+#
+#  Assumes:
+#
+#      1) There is a /usr/local/mgi/live/wiinactive sym link on the given
+#         server.
+#
+#  Implementation:
+#
+#  Notes:  None
+#
+###########################################################################
+
+if [ $# -ne 1 ]
+then
+    exit 1
+fi
+
+RC=0
+SERVER=$1
+
+#
+# Use ssh to check the wiinactive sym link on the given server. For public,
+# the link should point to a "wipub1" or "wipub2" directory. For the robot,
+# the link should point to a "wibot1" or "wibot2" directory. Strip off the
+# last character of the directory name (1 or 2) and save it in the INACTIVE
+# environment variable.
+#
+INACTIVE=`ssh mgiadmin@${SERVER} "ls -l /usr/local/mgi/live/wiinactive | sed 's/.*\(.\)$/\1/'" 2>/dev/null`
+
+#
+# If the inactive number cannot be determined, an error will be returned.
+#
+if [ "${INACTIVE}" != "1" -a "${INACTIVE}" != "2" ]
+then
+    RC=1
+fi
+
+#
+# Echo the inactive number to stdout so it can be picked up by the calling
+# script. 
+#
+echo "${INACTIVE}"
+
+exit ${RC}
