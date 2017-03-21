@@ -68,7 +68,7 @@ else
     echo "${STEP} failed" | tee -a "${MAIL_LOG}"
     date | tee -a "${MAIL_LOG}"
     RC=1
-    ./sendMail "${JOB_BASE_NAME}: Failed"
+    ./sendMail "Failed"
 fi
 
 exit ${RC}
