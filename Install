@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#
+# Install script for the jenkins_admin product
+#
+# Usage:  Install
+#
+cd `dirname $0`
+
+cd bin
+chmod 755 *
