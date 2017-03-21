@@ -3,8 +3,8 @@
 #  sendMail
 ###########################################################################
 #
-#  Purpose:  This script will use the given subject to send the mail log to
-#            the recipient list.
+#  Purpose:  This script will send the contents of the mail log to each
+#            recipient in the mail list.
 #
 #  Usage:
 #
@@ -12,7 +12,8 @@
 #
 #      where
 #
-#          subject = the text to be used for the email subject
+#          subject = the text to be appended to the email subject line,
+#                    (e.g. "Successful" or "Failed")
 #
 #  Env Vars:
 #
@@ -53,6 +54,6 @@ then
     exit 1
 fi
 
-mailx -s "${SUBJECT}" ${MAIL_LIST} < "${MAIL_LOG}"
+mailx -s "${JOB_BASE_NAME} (${NODE_NAME}): ${SUBJECT}" ${MAIL_LIST} < "${MAIL_LOG}"
 
 exit 0
