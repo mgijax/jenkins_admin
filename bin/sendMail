@@ -1,0 +1,58 @@
+#!/bin/sh
+#
+#  sendMail
+###########################################################################
+#
+#  Purpose:  This script will use the given subject to send the mail log to
+#            the recipient list.
+#
+#  Usage:
+#
+#      sendMail  subject
+#
+#      where
+#
+#          subject = the text to be used for the email subject
+#
+#  Env Vars:
+#
+#      MAIL_LOG - the path of the mail log that was created by a jenkins
+#                 project in its workspace
+#
+#      MAIL_LIST - jenkins env variable that contins a list of email
+#                  addresses to send the mail log to
+#
+#  Inputs:  None
+#
+#  Outputs:  None
+#
+#  Exit Codes:
+#
+#      0:  Successful completion
+#      1:  Fatal error occurred
+#
+#  Assumes:  Nothing
+#
+#  Implementation:
+#
+#  Notes:  None
+#
+###########################################################################
+
+if [ $# -ne 1 ]
+then
+    echo "Usage: $0 subject"
+    exit 1
+fi
+
+SUBJECT="$1"
+
+if [ ! -e "${MAIL_LOG}" ]
+then
+    echo "Mail log does not exist: ${MAIL_LOG}"
+    exit 1
+fi
+
+mailx -s "${SUBJECT}" ${MAIL_LIST} < "${MAIL_LOG}"
+
+exit 0
