@@ -23,6 +23,12 @@
 #      MAIL_LIST - jenkins env variable that contins a list of email
 #                  addresses to send the mail log to
 #
+#      JOB_BASE_NAME - jenkins environment variable that contains the name
+#                      of the current jenkins project
+#
+#      NODE_NAME - jenkins environment variable that contains the name of
+#                  the current node (server where the project is running)
+#
 #  Inputs:  None
 #
 #  Outputs:  None

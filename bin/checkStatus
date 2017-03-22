@@ -24,9 +24,6 @@
 #      MAIL_LOG - the path of the mail log that was created by a jenkins
 #                 project in its workspace
 #
-#      JOB_BASE_NAME - jenkins environment variable that contains the name
-#                      of the current jenkins project
-#
 #  Inputs:  None
 #
 #  Outputs:  None
