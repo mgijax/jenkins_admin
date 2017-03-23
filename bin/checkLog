@@ -42,7 +42,7 @@ fi
 #
 # Define the terms to look for ("|" delimited for egrep).
 #
-TERMS="error|fail|fatal|exception|traceback"
+TERMS="can't open|error|exception|fail|fatal|no such file|not found|not permitted|traceback|unexpected end of file|unknown operator"
 
 RC=0
 
