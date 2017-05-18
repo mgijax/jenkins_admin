@@ -6,7 +6,7 @@
 #  Purpose:  This script will determine which public or robot instance is
 #            inactive on the given server. It uses the "GlobalConfig.old"
 #            sym link in the /usr/local/mgi/live/webshare/config directory
-#            and checks which copy of the GLobalConfig file the sym link
+#            and checks which copy of the GlobalConfig file the sym link
 #            points to. It should end with a "1" or "2".
 #
 #  Usage:
@@ -36,7 +36,7 @@
 #      1) There is a /usr/local/mgi/live/webshare/config/GlobalConfig.old
 #         sym link on the given server.
 #
-#  Implementation:
+#  Implementation:  See inline comments.
 #
 #  Notes:  None
 #
