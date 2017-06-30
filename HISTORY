@@ -1,3 +1,11 @@
+TAG: jenkins_admin-6-0-10-2
+DATE: 6/30/2017
+STAFF: dbm
+CHANGES:
+1) logList.*: New
+2) Install: Added logList.*
+3) bin/checkLog: Added -f option
+
 TAG: jenkins_admin-6-0-10-1
 DATE: 5/19/2017
 STAFF: dbm
