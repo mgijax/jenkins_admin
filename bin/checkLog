@@ -3,16 +3,20 @@
 #  checkLog
 ###########################################################################
 #
-#  Purpose:  This script will scan a given list of log files for specific
-#            terms that indicate that there may be an error condition.
+#  Purpose:  This script will check log files for specific terms that
+#            indicate that there may be an error condition. The list of
+#            log files can be passed individually as arguments or they
+#            can be included in a file that is passed with the "-f" option.
 #
 #  Usage:
 #
-#      checkLog  logfiles
+#      checkLog  { logfile(s) | -f logfileList }
 #
 #      where
 #
-#          logfiles = one or more log files to scan (full paths)
+#          logfile(s) = one or more log files to scan (full paths)
+#
+#          logfileList = file that contains a list of log files to scan
 #
 #  Env Vars:  None
 #
@@ -33,26 +37,71 @@
 #
 ###########################################################################
 
-if [ $# -eq 0 ]
+#
+# Define the terms to look for in each log file ("|" delimited for egrep).
+#
+TERMS="can't open|error |error:|exception|fail|no such file|not found|not permitted|sanity error|traceback|unexpected end of file|unknown operator"
+
+#
+# Prepare a temp file to hold the list of log files to check. Make sure the
+# temp file gets removed when this script terminates.
+#
+TMP_LOG_LIST=/tmp/loglist.$$
+>${TMP_LOG_LIST}
+trap "rm -f ${TMP_LOG_LIST}" 0 1 2 15
+
+#
+# Check for the options to the script.
+#
+LOG_LIST=""
+ARGS=`getopt f: $*`
+if [ $? != 0 ]
 then
-    echo "Usage: $0 Logfile(s)"
+    echo "Usage: $0 { logfile(s) | -f logfileList }"
     exit 1
+fi
+set -- ${ARGS}
+for i
+do
+    case $i in
+        -f) shift; LOG_LIST=$1; shift;;
+        --) shift; break;;
+    esac
+done
+
+#
+# If log files were passed as a list in a file, append the list to the
+# temp file.
+#
+if [ "${LOG_LIST}" != "" ]
+then
+    if [ -f ${LOG_LIST} ]
+    then
+        cat ${LOG_LIST} >> ${TMP_LOG_LIST}
+    else
+        echo "File does not exist: ${LOG_LIST}"
+        exit 1
+    fi
 fi
 
 #
-# Define the terms to look for ("|" delimited for egrep).
-#
-TERMS="can't open|error|exception|fail|fatal|no such file|not found|not permitted|traceback|unexpected end of file|unknown operator"
-
-RC=0
-
-#
-# Check each file that was passed to the script. If egrep finds any of the
-# terms, the lines are sent to stdout to be captured by the calling script.
-# A non-zero (1) will be returned if any terms are found or a specified log
-# file does not exist.
+# If log files were passed separately on the command line, append each
+# log file name to the temp file.
 #
 for i in $*
+do
+    echo $i >> ${TMP_LOG_LIST}
+done
+
+#
+# At this point, the temp file will contain a complete list of all files
+# to be scanned. If egrep finds any of the terms, the lines are sent to
+# stdout to be captured by the calling script. A non-zero (1) will be
+# returned if any terms are found or a specified log file does not exist.
+#
+RC=0
+
+for i in `cat ${TMP_LOG_LIST} | grep -v "^#"`
 do
     if [ -r $i ]
     then
