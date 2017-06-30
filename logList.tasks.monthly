@@ -1,0 +1,6 @@
+#
+# Monthlytasks log files
+#
+/data/reports/qcreports_db/logs/qcmonthly_reports.csh.log
+/data/loads/mgi/loadadmin/logs/monthlytasks.csh.log
+/data/loads/mgi/loadadmin/logs/monthlytasks.csh.stdout.log
