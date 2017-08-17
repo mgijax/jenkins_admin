@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#
+# Configuration file for the jenkins administration product (jenkins_admin)
+#
+
+if [ "${MGICONFIG}" = "" ]
+then
+    MGICONFIG=/usr/local/mgi/live/mgiconfig
+    export MGICONFIG
+fi
+
+. ${MGICONFIG}/master.config.sh
+
+PUBLIC_WEBSERVER=bhmgipub01lp
+ROBOT_WEBSERVER=bhmgirob01lp
+
+export PUBLIC_WEBSERVER ROBOT_WEBSERVER
