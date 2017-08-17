@@ -1,0 +1,74 @@
+#!/bin/sh
+#
+#  getInactivePublic
+###########################################################################
+#
+#  Purpose:  This script will determine which public instance is currently
+#            inactive (pub1 or pub2) and echo it to stdout where it can be
+#            picked up by the caller. The "GlobalConfig.old" sym link in
+#            the /usr/local/mgi/live/webshare/config directory should point
+#            to one of these files:
+#
+#                GlobalConfig.pub1
+#                GlobalConfig.pub2
+#
+#            This is used to determine which public instance is inactive.
+#
+#  Usage:
+#
+#      getInactivePublic
+#
+#  Env Vars:
+#
+#      - See Configuration file
+#
+#  Inputs:  None
+#
+#  Outputs:
+#
+#      The inactive instance (pub1 or pub2) is sent to stdout.
+#
+#  Exit Codes:
+#
+#      0:  Successful completion
+#      1:  Fatal error occurred
+#
+#  Assumes:  Nothing
+#
+#  Implementation:  See inline comments.
+#
+#  Notes:  None
+#
+###########################################################################
+
+cd `dirname $0`
+. ../Configuration
+
+RC=0
+
+#
+# The sym link that should point to the inactive GlobalConfig file.
+#
+SYM_LINK=${MGI_LIVE}/webshare/config/GlobalConfig.old
+
+#
+# Use ssh to check whether the sym link points to the pub1 or pub2 instance
+# of the GlobalConfig file. Removing everything up to the last "." should
+# leave only the "pub1" or "pub2".
+#
+INSTANCE=`ssh mgiadmin@${PUBLIC_WEBSERVER} "ls -l ${SYM_LINK} | sed 's/.*\.//'" 2>/dev/null`
+
+#
+# If the instance cannot be determined, an error will be returned.
+#
+if [ "${INSTANCE}" != "pub1" -a "${INSTANCE}" != "pub2" ]
+then
+    RC=1
+fi
+
+#
+# Echo the instance to stdout where it can be picked up by the caller.
+#
+echo "${INSTANCE}"
+
+exit ${RC}

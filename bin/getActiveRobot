@@ -1,0 +1,74 @@
+#!/bin/sh
+#
+#  getActiveRobot
+###########################################################################
+#
+#  Purpose:  This script will determine which robot instance is currently
+#            active (bot1 or bot2) and echo it to stdout where it can be
+#            picked up by the caller. The "GlobalConfig" sym link in
+#            the /usr/local/mgi/live/webshare/config directory should point
+#            to one of these files:
+#
+#                GlobalConfig.bot1
+#                GlobalConfig.bot2
+#
+#            This is used to determine which robot instance is active.
+#
+#  Usage:
+#
+#      getActiveRobot
+#
+#  Env Vars:
+#
+#      - See Configuration file
+#
+#  Inputs:  None
+#
+#  Outputs:
+#
+#      The active instance (bot1 or bot2) is sent to stdout.
+#
+#  Exit Codes:
+#
+#      0:  Successful completion
+#      1:  Fatal error occurred
+#
+#  Assumes:  Nothing
+#
+#  Implementation:  See inline comments.
+#
+#  Notes:  None
+#
+###########################################################################
+
+cd `dirname $0`
+. ../Configuration
+
+RC=0
+
+#
+# The sym link that should point to the active GlobalConfig file.
+#
+SYM_LINK=${MGI_LIVE}/webshare/config/GlobalConfig
+
+#
+# Use ssh to check whether the sym link points to the bot1 or bot2 instance
+# of the GlobalConfig file. Removing everything up to the last "." should
+# leave only the "bot1" or "bot2".
+#
+INSTANCE=`ssh mgiadmin@${ROBOT_WEBSERVER} "ls -l ${SYM_LINK} | sed 's/.*\.//'" 2>/dev/null`
+
+#
+# If the instance cannot be determined, an error will be returned.
+#
+if [ "${INSTANCE}" != "bot1" -a "${INSTANCE}" != "bot2" ]
+then
+    RC=1
+fi
+
+#
+# Echo the instance to stdout where it can be picked up by the caller.
+#
+echo "${INSTANCE}"
+
+exit ${RC}
