@@ -1,3 +1,13 @@
+TAG: jenkins_admin-6-0-10-3
+DATE: 8/17/2017
+STAFF: dbm
+CHANGES:
+1) Configuration.default: New
+2) bin/getActivePublic: New
+3) bin/getInactivePublic: New
+4) bin/getActiveRobot: New
+5) bin/getInactiveRobot: New
+
 TAG: jenkins_admin-6-0-10-2
 DATE: 6/30/2017
 STAFF: dbm
