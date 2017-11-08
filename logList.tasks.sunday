@@ -2,6 +2,8 @@
 # Sundaytasks log files
 #
 /data/loads/entrezgene/entrezgeneload/logs/loadFiles.csh.log
+/data/loads/pubmed2geneload/logs/pubmed2geneload.proc.log
+/data/loads/pubmed2geneload/logs/pubmed2geneload.diag.log
 /data/loads/entrezgene/egload/logs/entrezgene.proc.log
 /data/loads/entrezgene/egload/logs/entrezgene.diag.log
 /data/loads/uniprot/uniprotload/output/go_ec_annot.txt.diagnostics
@@ -104,6 +106,7 @@
 /data/loads/go/gocfp/logs/gocfp.diag.log
 /data/loads/mgi/mgicacheload/logs/go_annot_extensions_display_load.csh.log
 /data/loads/mgi/mgicacheload/logs/go_isoforms_display_load.csh.log
+/data/loads/mgi/pgdbutilities/logs/run_BIB_updateWFStatus.csh.log
 /data/reports/qcreports_db/logs/qcweekly_reports.csh.log
 /data/reports/qcreports_db/logs/qcsunday_reports.csh.log
 /data/loads/mgi/loadadmin/logs/sundaytasks.csh.log

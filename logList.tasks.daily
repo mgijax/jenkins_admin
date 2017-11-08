@@ -6,6 +6,10 @@
 /data/loads/genbank/gbseqdeleter/logs/gbseqdeleter.diag.log
 /data/loads/mgi/nomenload/logs/nomenload.diag.log
 /data/loads/mgi/nomenload/output/mappingload.diag
+/data/loads/mgi/pdfdownload/logs/download_plos.sh.log
+/data/loads/mgi/pdfdownload/logs/identify_missed_papers_plos.sh.log
+/data/loads/mgi/littriageload/logs/littriageload.proc.log
+/data/loads/mgi/littriageload/logs/littriageload.diag.log
 /data/loads/rollupload/logs/rollupload.proc.log
 /data/loads/rollupload/logs/rollupload.diag.log
 /data/loads/mgi/seqcacheload/logs/seqdummy.log
@@ -44,6 +48,7 @@
 /data/loads/mgi/mgicacheload/logs/go_annot_extensions_display_load.csh.log
 /data/loads/mgi/mgicacheload/logs/go_isoforms_display_load.csh.log
 /data/loads/mgi/mgicacheload/logs/gxdexpression.csh.log
+/data/loads/mgi/pgdbutilities/logs/run_BIB_updateWFStatus.csh.log
 /data/reports/qcreports_db/logs/qcnightly_reports.csh.log
 /data/reports/reports_db/logs/run_daily.csh.log
 /data/loads/mgi/loadadmin/logs/dailytasks.csh.log

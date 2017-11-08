@@ -110,5 +110,6 @@
 /data/loads/mgi/allcacheload/logs/allstrain.csh.log
 /data/loads/mgi/allcacheload/logs/allelecrecache.log
 /data/loads/mgi/mgicacheload/logs/bibcitation.csh.log
+/data/loads/mgi/pgdbutilities/logs/run_BIB_updateWFStatus.csh.log
 /data/loads/mgi/loadadmin/logs/saturdaytasks.csh.log
 /data/loads/mgi/loadadmin/logs/saturdaytasks.csh.stdout.log
