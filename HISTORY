@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-12-1
+DATE: 3/15/2018
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: added logs for mp_emapaload
+
 TAG: jenkins_admin-6-0-11-1
 DATE: 11/8/2017
 STAFF: dbm
