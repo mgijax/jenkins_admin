@@ -37,6 +37,8 @@
 /data/loads/mgi/htmpload/impcmpload/output/mgi_annotload.txt.diagnostics
 /data/loads/mgi/htmpload/impcmpload/logs/htmpload.proc.log
 /data/loads/mgi/htmpload/impcmpload/logs/htmpload.diag.log
+/data/loads/mp_emapaload/logs/mp_emapaload.proc.log
+/data/loads/mp_emapaload/logs/mp_emapaload.diag.log
 /data/loads/mgi/gxdhtload/logs/gxdhtload.proc.log
 /data/loads/mgi/gxdhtload/logs/gxdhtload.diag.log
 /data/loads/swissprot/spseqload/logs/spseqload.proc.log
