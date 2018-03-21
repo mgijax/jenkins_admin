@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-12-2
+DATE: 3/21/2018
+STAFF: dbm
+CHANGES:
+1) bin/checkLog: added logic to exclude terms that should not be errors
+
 TAG: jenkins_admin-6-0-12-1
 DATE: 3/15/2018
 STAFF: dbm
