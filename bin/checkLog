@@ -43,12 +43,19 @@
 TERMS="can't open|error |error:|exception|fail|no such file|not found|not permitted|sanity error|traceback|unexpected end of file|unknown operator"
 
 #
+# Define the terms that should be excluded from the results, even though they
+# contain part of one of the above terms ("|" delimited for egrep).
+#
+EXCLUDE_TERMS="raise exception"
+
+#
 # Prepare a temp file to hold the list of log files to check. Make sure the
 # temp file gets removed when this script terminates.
 #
 TMP_LOG_LIST=/tmp/loglist.$$
+TMP_GREP=/tmp/grep.$$
 >${TMP_LOG_LIST}
-trap "rm -f ${TMP_LOG_LIST}" 0 1 2 15
+trap "rm -f ${TMP_LOG_LIST} ${TMP_GREP}" 0 1 2 15
 
 #
 # Check for the options to the script.
@@ -106,9 +113,14 @@ do
     if [ -r $i ]
     then
         echo "Checking $i"
-        if [ `egrep -i "${TERMS}" $i | wc -l` -gt 0 ]
+        >${TMP_GREP}
+
+        # Search the log file for any lines that contain one of the terms,
+        # but ignore any of them that are part of an excluded term.
+        egrep -i "${TERMS}" $i | egrep -iv "${EXCLUDE_TERMS}" >> ${TMP_GREP}
+        if [ `cat ${TMP_GREP} | wc -l` -gt 0 ]
         then
-            egrep -i "${TERMS}" $i
+            cat ${TMP_GREP}
             RC=1
         fi
     else
