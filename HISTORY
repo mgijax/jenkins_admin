@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-12-3
+DATE: 4/26/2018
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: removed logs for vega GM load
+
 TAG: jenkins_admin-6-0-12-2
 DATE: 3/21/2018
 STAFF: dbm
