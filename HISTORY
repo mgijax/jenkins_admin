@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-12-4
+DATE: 4/27/2018
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday: add mrkdo.log; remove mrkomim.log
+
 TAG: jenkins_admin-6-0-12-3
 DATE: 4/26/2018
 STAFF: dbm
