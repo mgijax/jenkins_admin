@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-13-1
+DATE: 9/17/2018
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday: add logs for straingenemodelload and strainmarkerload
+
 TAG: jenkins_admin-6-0-12-5
 DATE: 7/27/2018
 STAFF: dbm
