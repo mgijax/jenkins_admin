@@ -1,3 +1,10 @@
+TAG: jenkins_admin-6-0-13-3
+DATE: 12/11/2018
+STAFF: dbm
+CHANGES:
+1) logList.tasks.daily: move MCV and marker coord loads from Saturday
+2) logList.tasks.saturday: move MCV and marker coord loads to Friday
+
 TAG: jenkins_admin-6-0-13-2
 DATE: 11/14/2018
 STAFF: dbm
