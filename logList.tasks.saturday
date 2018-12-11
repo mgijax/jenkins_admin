@@ -5,11 +5,6 @@
 /data/loads/gensat/gensatload/logs/gensatload.log
 /data/loads/pro/proload/logs/proload.proc.log
 /data/loads/pro/proload/logs/proload.diag.log
-/data/loads/mgi/vocload/runTimeMCV/log.txt
-/data/loads/mgi/vocload/runTimeMCV/fullLog.txt
-/data/loads/mgi/mcvload/logs/mcvload.proc.log
-/data/loads/mgi/mcvload/logs/mcvload.diag.log
-/data/loads/mgi/mcvload/output/mcvload_annot.txt.diagnostics
 /data/loads/mgi/vocload/runTimeRV/log.txt
 /data/loads/mgi/vocload/runTimeRV/fullLog.txt
 /data/loads/mgi/fearload/logs/fearload.proc.log
@@ -86,8 +81,6 @@
 /data/loads/mgi/straingenemodelload/logs/updateSource.log
 /data/loads/mgi/strainmarkerload/logs/strainmarkerload.proc.log
 /data/loads/mgi/strainmarkerload/logs/strainmarkerload.diag.log
-/data/loads/mgi/mrkcoordload/logs/mrkcoordload.proc.log
-/data/loads/mgi/mrkcoordload/logs/mrkcoordload.diag.log
 /data/loads/rollupload/logs/rollupload.proc.log
 /data/loads/rollupload/logs/rollupload.diag.log
 /data/loads/mgi/seqcacheload/logs/seqdummy.log
@@ -98,7 +91,6 @@
 /data/loads/mgi/mrkcacheload/logs/mrkref.log
 /data/loads/mgi/mrkcacheload/logs/mrklocation.log
 /data/loads/mgi/mrkcacheload/logs/mrkprobe.log
-/data/loads/mgi/mrkcacheload/logs/mrkmcv.log
 /data/loads/mgi/alomrkload/logs/alomrkload.proc.log
 /data/loads/mgi/alomrkload/logs/alomrkload.diag.log
 /data/loads/mgi/allcacheload/logs/alllabel.csh.log

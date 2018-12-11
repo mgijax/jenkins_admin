@@ -10,6 +10,13 @@
 /data/loads/mgi/pdfdownload/logs/identify_missed_papers_plos.sh.log
 /data/loads/mgi/littriageload/logs/littriageload.proc.log
 /data/loads/mgi/littriageload/logs/littriageload.diag.log
+/data/loads/mgi/vocload/runTimeMCV/log.txt
+/data/loads/mgi/vocload/runTimeMCV/fullLog.txt
+/data/loads/mgi/mcvload/logs/mcvload.proc.log
+/data/loads/mgi/mcvload/logs/mcvload.diag.log
+/data/loads/mgi/mcvload/output/mcvload_annot.txt.diagnostics
+/data/loads/mgi/mrkcoordload/logs/mrkcoordload.proc.log
+/data/loads/mgi/mrkcoordload/logs/mrkcoordload.diag.log
 /data/loads/rollupload/logs/rollupload.proc.log
 /data/loads/rollupload/logs/rollupload.diag.log
 /data/loads/mgi/seqcacheload/logs/seqdummy.log
@@ -27,8 +34,6 @@
 /data/loads/mgi/allcacheload/logs/allelecrecache.log
 /data/loads/mgi/vocload/runTimeMP/log.txt
 /data/loads/mgi/vocload/runTimeMP/fullLog.txt
-/data/loads/mgi/vocload/runTimeMCV/log.txt
-/data/loads/mgi/vocload/runTimeMCV/fullLog.txt
 /data/loads/mgi/vocload/emap/logs/emapload.proc.log
 /data/loads/mgi/vocload/emap/logs/emapload.diag.log
 /data/loads/mgi/vocload/emap/logs/emapTermDag.log
