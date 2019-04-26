@@ -26,10 +26,6 @@
 /data/loads/mgi/alleleload/ikmc/logs/ikmc.proc.log
 /data/loads/mgi/alleleload/ikmc/logs/ikmc.diag.log
 /data/loads/mgi/pgdbutilities/logs/updateIMSRgermline.csh.log
-/data/loads/mgi/htmpload/dmddmpload/output/mgi_genotypeload.txt.diagnostics
-/data/loads/mgi/htmpload/dmddmpload/output/mgi_annotload.txt.diagnostics
-/data/loads/mgi/htmpload/dmddmpload/logs/htmpload.proc.log
-/data/loads/mgi/htmpload/dmddmpload/logs/htmpload.diag.log
 /data/loads/mgi/htmpload/impcmpload/output/mgi_genotypeload.txt.diagnostics
 /data/loads/mgi/htmpload/impcmpload/output/mgi_annotload.txt.diagnostics
 /data/loads/mgi/htmpload/impcmpload/logs/htmpload.proc.log
