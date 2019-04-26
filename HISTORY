@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-14-1
+DATE: 4/26/2019
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: remove htmpload for DMDD
+
 TAG: jenkins_admin-6-0-13-5
 DATE: 1/14/2019
 STAFF: dbm
