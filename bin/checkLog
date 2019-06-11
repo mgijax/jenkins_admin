@@ -3,9 +3,9 @@
 #  checkLog
 ###########################################################################
 #
-#  Purpose:  This script will check log files for specific terms that
-#            indicate that there may be an error condition. The list of
-#            log files can be passed individually as arguments or they
+#  Purpose:  This script will check log files for specific terms/phrases
+#            that indicate that there may be an error condition. The list
+#            of log files can be passed individually as arguments or they
 #            can be included in a file that is passed with the "-f" option.
 #
 #  Usage:
@@ -38,15 +38,17 @@
 ###########################################################################
 
 #
-# Define the terms to look for in each log file ("|" delimited for egrep).
+# Define the terms/phrases to look for in each log file ("|" delimited
+# for egrep).
 #
 TERMS="can't open|error |error:|exception|fail|no such file|not found|not permitted|sanity error|traceback|unexpected end of file|unknown operator"
 
 #
-# Define the terms that should be excluded from the results, even though they
-# contain part of one of the above terms ("|" delimited for egrep).
+# Define the terms/phrases that should be excluded from the results, even
+# though they contain part of one of the above terms/phrases ("|" delimited
+# for egrep).
 #
-EXCLUDE_TERMS="raise exception"
+EXCLUDE_TERMS="raise exception|Error: no PDF found|Error on pdf download"
 
 #
 # Prepare a temp file to hold the list of log files to check. Make sure the
