@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-14-2
+DATE: 6/11/2019
+STAFF: dbm
+CHANGES:
+1) bin/checkLog: added phrases to exclude for PDF download
+
 TAG: jenkins_admin-6-0-14-1
 DATE: 4/26/2019
 STAFF: dbm
