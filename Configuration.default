@@ -13,6 +13,5 @@ fi
 . ${MGICONFIG}/master.config.sh
 
 PUBLIC_WEBSERVER=bhmgipub01lp
-ROBOT_WEBSERVER=bhmgirob01lp
 
-export PUBLIC_WEBSERVER ROBOT_WEBSERVER
+export PUBLIC_WEBSERVER
