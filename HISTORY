@@ -1,3 +1,12 @@
+TAG: jenkins_admin-6-0-14-3
+DATE: 7/15/2019
+STAFF: dbm
+CHANGES:
+1) Configuration.default: remove ROBOT_WEBSERVER setting
+2) bin/getActiveRobot: remove
+3) bin/getInactiveRobot: remove
+4) bin/getInactiveNumber: remove robot references
+
 TAG: jenkins_admin-6-0-14-2
 DATE: 6/11/2019
 STAFF: dbm
