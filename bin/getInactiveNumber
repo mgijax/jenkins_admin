@@ -3,10 +3,10 @@
 #  getInactiveNumber
 ###########################################################################
 #
-#  Purpose:  This script will determine which public or robot instance is
-#            inactive on the given server. It uses the "GlobalConfig.old"
-#            sym link in the /usr/local/mgi/live/webshare/config directory
-#            and checks which copy of the GlobalConfig file the sym link
+#  Purpose:  This script will determine which public instance is inactive
+#            on the given server. It uses the "GlobalConfig.old" sym link
+#            in the /usr/local/mgi/live/webshare/config directory and
+#            checks which copy of the GlobalConfig file the sym link
 #            points to. It should end with a "1" or "2".
 #
 #  Usage:
@@ -15,8 +15,8 @@
 #
 #      where
 #
-#          server = the name of the public or robot server where the
-#                   webshare instance resides
+#          server = the name of the public server where the webshare
+#                   instance resides
 #
 #  Env Vars:  None
 #
@@ -53,10 +53,8 @@ SERVER=$1
 #
 # Use ssh to check the GlobalConfig.old sym link on the given server.
 # For public, the link should point to a "GlobalConfig.pub1" or
-# "GlobalConfig.pub1" file. For the robot, the link should point to a
-# "GlobalConfig.bot1" or "GlobalConfig.bot2" file. Strip off the last
-# character of the file name (1 or 2) and save it in the INACTIVE
-# environment variable.
+# "GlobalConfig.pub1" file. Strip off the last character of the file
+# name (1 or 2) and save it in the INACTIVE environment variable.
 #
 INACTIVE=`ssh mgiadmin@${SERVER} "ls -l /usr/local/mgi/live/webshare/config/GlobalConfig.old | sed 's/.*\(.\)$/\1/'" 2>/dev/null`
 
