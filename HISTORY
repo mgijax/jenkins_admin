@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-14-4
+DATE: 8/7/2019
+STAFF: dbm
+CHANGES:
+1) logList.tasks.daily: check download_papers.sh.log
+
 TAG: jenkins_admin-6-0-14-3
 DATE: 7/15/2019
 STAFF: dbm
