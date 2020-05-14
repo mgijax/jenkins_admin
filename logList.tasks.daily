@@ -37,8 +37,6 @@
 /data/loads/mgi/vocload/emap/logs/emapload.proc.log
 /data/loads/mgi/vocload/emap/logs/emapload.diag.log
 /data/loads/mgi/vocload/emap/logs/emapTermDag.log
-/data/loads/mgi/vocabbrevload/emapslimload/logs/emapslimload.proc.log
-/data/loads/mgi/vocabbrevload/emapslimload/logs/emapslimload.diag.log
 /data/loads/mgi/vocload/runTimeRV/log.txt
 /data/loads/mgi/vocload/runTimeRV/fullLog.txt
 /data/loads/mgi/vocload/runTimeGO/log.txt
