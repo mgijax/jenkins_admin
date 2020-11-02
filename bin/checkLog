@@ -48,7 +48,7 @@ TERMS="can't open|error |error:|exception|fail|no such file|not found|not permit
 # though they contain part of one of the above terms/phrases ("|" delimited
 # for egrep).
 #
-EXCLUDE_TERMS="raise exception|Error: no PDF found|Error on pdf download"
+EXCLUDE_TERMS="raise exception|Error: no PDF found|Error on pdf download|http error code:  429"
 
 #
 # Prepare a temp file to hold the list of log files to check. Make sure the
