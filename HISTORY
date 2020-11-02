@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-16-1
+DATE: 11/2/2020
+STAFF: dbm
+CHANGES:
+1) bin/checkLog: exclude error code 429 from Lit Triage load
+
 TAG: jenkins_admin-6-0-15-2
 DATE: 5/14/2020
 STAFF: dbm
