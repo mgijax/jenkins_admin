@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-16-2
+DATE: 11/13/2020
+STAFF: dbm
+CHANGES:
+1) bin/checkLog: revert last change so error 429 is no longer excluded
+
 TAG: jenkins_admin-6-0-16-1
 DATE: 11/2/2020
 STAFF: dbm
