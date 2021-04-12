@@ -41,7 +41,8 @@
 /data/loads/mgi/vocload/runTimeRV/fullLog.txt
 /data/loads/mgi/vocload/runTimeGO/log.txt
 /data/loads/mgi/vocload/runTimeGO/fullLog.txt
-/data/loads/go/gotext/gotext.txt.diagnostics
+/data/loads/go/gotextload/logs/gotextload.log
+/data/loads/go/gotextload/output/gotext.txt.diagnostics
 /data/loads/pro/proisoformload/output/proannot.txt.diagnostics
 /data/loads/pro/proisoformload/logs/proisoform.proc.log
 /data/loads/pro/proisoformload/logs/proisoform.diag.log
