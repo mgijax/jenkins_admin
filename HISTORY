@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-16-3
+DATE: 4/12/2021
+STAFF: dbm
+CHANGES:
+1) logList.tasks.daily: added logs for new gotextload
+
 TAG: jenkins_admin-6-0-16-2
 DATE: 11/13/2020
 STAFF: dbm
