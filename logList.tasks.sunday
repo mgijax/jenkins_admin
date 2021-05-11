@@ -4,6 +4,9 @@
 /data/loads/entrezgene/entrezgeneload/logs/loadFiles.csh.log
 /data/loads/pubmed2geneload/logs/pubmed2geneload.proc.log
 /data/loads/pubmed2geneload/logs/pubmed2geneload.diag.log
+/data/loads/mgi/problemseqsetload/logs/pssload.pros.log
+/data/loads/mgi/problemseqsetload/logs/pssload.diag.log
+/data/loads/mgi/problemseqsetload/logs/problemseqsetQC.log
 /data/loads/entrezgene/egload/logs/entrezgene.proc.log
 /data/loads/entrezgene/egload/logs/entrezgene.diag.log
 /data/loads/uniprot/uniprotload/output/go_ec_annot.txt.diagnostics
@@ -69,12 +72,10 @@
 /data/loads/mgi/mrkcacheload/logs/mrkprobe.log
 /data/loads/nextprot/nextprotload/logs/nextprotload.proc.log
 /data/loads/nextprot/nextprotload/logs/nextprotload.diag.log
-/data/loads/homology/homologeneload/logs/homologeneload.proc.log
-/data/loads/homology/homologeneload/logs/homologeneload.diag.log
-/data/loads/homology/hgncload/logs/hgncload.proc.log
-/data/loads/homology/hgncload/logs/hgncload.diag.log
-/data/loads/homology/hybridload/logs/hybridload.proc.log
-/data/loads/homology/hybridload/logs/hybridload.diag.log
+/data/loads/homology/alliance_clusteredload/logs/alliance_clusteredload.proc.log
+/data/loads/homology/alliance_clusteredload/logs/alliance_clusteredload.diag.log
+/data/loads/homology/alliance_directload/logs/alliance_directload.proc.log
+/data/loads/homology/alliance_directload/logs/alliance_directload.diag.log
 /data/loads/homology/zfinload/logs/zfinload.proc.log
 /data/loads/homology/zfinload/logs/zfinload.diag.log
 /data/loads/homology/geishaload/logs/geishaload.proc.log
