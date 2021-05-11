@@ -1,3 +1,10 @@
+TAG: jenkins_admin-6-0-17-1
+DATE: 5/11/2021
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday: added logs for problemseqsetload and updated list
+                         for homologyload
+
 TAG: jenkins_admin-6-0-16-4
 DATE: 4/14/2021
 STAFF: dbm
