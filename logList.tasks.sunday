@@ -4,7 +4,7 @@
 /data/loads/entrezgene/entrezgeneload/logs/loadFiles.csh.log
 /data/loads/pubmed2geneload/logs/pubmed2geneload.proc.log
 /data/loads/pubmed2geneload/logs/pubmed2geneload.diag.log
-/data/loads/mgi/problemseqsetload/logs/pssload.pros.log
+/data/loads/mgi/problemseqsetload/logs/pssload.proc.log
 /data/loads/mgi/problemseqsetload/logs/pssload.diag.log
 /data/loads/mgi/problemseqsetload/logs/problemseqsetQC.log
 /data/loads/entrezgene/egload/logs/entrezgene.proc.log
