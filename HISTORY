@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-17-4
+DATE: 10/26/2021
+STAFF: dbm
+CHANGES:
+1) logList.tasks.daily: remove logs for PDF download and missing papers report
+
 TAG: jenkins_admin-6-0-17-3
 DATE: 9/13/2021
 STAFF: dbm
