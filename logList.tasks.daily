@@ -7,8 +7,6 @@
 /data/loads/mgi/nomenload/logs/nomenload.diag.log
 /data/loads/mgi/nomenload/output/mappingload.diag
 /data/loads/mgi/nomenload/logs/batchrename.diag.log
-/data/loads/mgi/pdfdownload/logs/download_papers.sh.log
-/data/loads/mgi/pdfdownload/logs/identify_missed_papers_plos.sh.log
 /data/loads/mgi/littriageload/logs/littriageload.proc.log
 /data/loads/mgi/littriageload/logs/littriageload.diag.log
 /data/loads/mgi/vocload/runTimeMCV/log.txt
