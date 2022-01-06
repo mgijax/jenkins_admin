@@ -79,6 +79,7 @@
 /data/loads/mgi/strainmarkerload/logs/strainmarkerload.diag.log
 /data/loads/mgi/rnaseqload/logs/rnaseqload.proc.log
 /data/loads/mgi/rnaseqload/logs/rnaseqload.diag.log
+/data/loads/mgi/littriageload/logs/pubmedreview.log
 /data/loads/rollupload/logs/rollupload.proc.log
 /data/loads/rollupload/logs/rollupload.diag.log
 /data/loads/mgi/seqcacheload/logs/seqdummy.log
