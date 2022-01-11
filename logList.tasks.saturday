@@ -32,8 +32,9 @@
 /data/loads/mgi/htmpload/impcmpload/logs/htmpload.diag.log
 /data/loads/mp_emapaload/logs/mp_emapaload.proc.log
 /data/loads/mp_emapaload/logs/mp_emapaload.diag.log
-/data/loads/mgi/gxdhtload/logs/gxdhtload.proc.log
-/data/loads/mgi/gxdhtload/logs/gxdhtload.diag.log
+/data/loads/mgi/geo_htload/logs/geo_htload.proc.log
+/data/loads/mgi/geo_htload/logs/geo_htload.diag.log
+/data/loads/mgi/geo_htload/logs/predicted.log
 /data/loads/swissprot/spseqload/logs/spseqload.proc.log
 /data/loads/swissprot/spseqload/logs/spseqload.diag.log
 /data/loads/swissprot/trseqload/logs/trseqload.proc.log
