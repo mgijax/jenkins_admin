@@ -69,6 +69,7 @@
 /data/loads/mgi/genemodelload/logs/ncbi_seqgenemodelload.log
 #/data/loads/mgi/emalload/impc/logs/emalload.proc.log
 #/data/loads/mgi/emalload/impc/logs/emalload.diag.log
+/data/loads/mgi/curatoralleleload/logs/curatoralleleload.diag.log
 /data/loads/mgi/straingenemodelload/logs/straingenemodelload.log
 /data/loads/mgi/straingenemodelload/logs/mgp_seqgenemodelload.log
 /data/loads/mgi/straingenemodelload/logs/b6_seqgenemodelload.log
