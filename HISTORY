@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-20-1
+DATE: 6/2/2022
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: add log for curator allele load
+
 TAG: jenkins_admin-6-0-19-1
 DATE: 5/9/2022
 STAFF: dbm
