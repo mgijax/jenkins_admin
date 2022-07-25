@@ -1,8 +1,15 @@
+TAG: jenkins_admin-6-0-21-2
+DATE: 7/25/2022
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: add log files for qtlcandidateload and
+                           qtlinteractionload
+
 TAG: jenkins_admin-6-0-21-1
 DATE: 7/19/2022
 STAFF: dbm
 CHANGES:
-1) logList.tasks.saturday: add log files fro tssgeneload
+1) logList.tasks.saturday: add log files for tssgeneload
 
 TAG: jenkins_admin-6-0-20-1
 DATE: 6/2/2022
