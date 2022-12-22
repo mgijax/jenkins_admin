@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-22-1
+DATE: 12/22/2022
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: add log files for ensemblreg
+
 TAG: jenkins_admin-6-0-21-2
 DATE: 7/25/2022
 STAFF: dbm
