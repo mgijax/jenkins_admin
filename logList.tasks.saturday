@@ -61,6 +61,12 @@
 /data/loads/ensembl/ensembl_proteinseqload/logs/ensembl_proteinseqload.diag.log
 /data/loads/mgi/genemodelload/logs/ensembl_genemodelload.log
 /data/loads/mgi/genemodelload/logs/ensembl_seqgenemodelload.log
+/data/loads/assembly/ensemblregseqload/logs/assemblyseqload.proc.log
+/data/loads/assembly/ensemblregseqload/logs/assemblyseqload.diag.log
+/data/loads/assembly/ensemblreg_assocload/logs/assocload.proc.log
+/data/loads/assembly/ensemblreg_assocload/logs/assocload.diag.log
+/data/loads/mgi/genemodelload/logs/ensemblreg_genemodelload.log
+/data/loads/mgi/genemodelload/logs/ensemblreg_seqgenemodelload.log
 /data/loads/assembly/ncbiseqload/logs/assemblyseqload.proc.log
 /data/loads/assembly/ncbiseqload/logs/assemblyseqload.diag.log
 /data/loads/assembly/ncbi_assocload/logs/assocload.proc.log
