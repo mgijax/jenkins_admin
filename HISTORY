@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-22-5
+DATE: 04/26/2023
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday: add logs for partnerofload
+
 TAG: jenkins_admin-6-0-22-4
 DATE: 04/21/2023
 STAFF: dbm
