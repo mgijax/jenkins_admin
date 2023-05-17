@@ -62,8 +62,6 @@
 /data/loads/entrezgene/entrezgeneload/output/monkey/*.log
 /data/loads/entrezgene/entrezgeneload/output/xenopus/*.diagnostics
 /data/loads/entrezgene/entrezgeneload/output/xenopus/*.log
-#/data/loads/mapview/mapviewload/logs/mapviewload.proc.log
-#/data/loads/mapview/mapviewload/logs/mapviewload.diag.log
 /data/loads/mgi/seqcacheload/logs/seqdummy.log
 /data/loads/mgi/seqcacheload/logs/seqmarker.log
 /data/loads/mgi/seqcacheload/logs/seqprobe.log
