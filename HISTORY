@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-22-6
+DATE: 05/17/2023
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday: removed log files for mapviewload (retired)
+
 TAG: jenkins_admin-6-0-22-5
 DATE: 04/26/2023
 STAFF: dbm
