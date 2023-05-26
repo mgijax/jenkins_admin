@@ -78,7 +78,10 @@
 /data/loads/mgi/emalload/impc/logs/emalload.diag.log
 /data/loads/mgi/tssgeneload/logs/tssgeneload.proc.log
 /data/loads/mgi/tssgeneload/logs/tssgeneload.diag.log
+/data/loads/mgi/curatoralleleload/logs/curatoralleleload.proc.log
 /data/loads/mgi/curatoralleleload/logs/curatoralleleload.diag.log
+/data/loads/mgi/curatorstrainload/logs/curatorstrainload.proc.log
+/data/loads/mgi/curatorstrainload/logs/curatorstrainload.diag.log
 /data/loads/mgi/qtlcandidateload/logs/qtlcandidateload.proc.log
 /data/loads/mgi/qtlcandidateload/logs/qtlcandidateload.diag.log
 /data/loads/mgi/qtlinteractionload/logs/qtlinteractionload.proc.log
