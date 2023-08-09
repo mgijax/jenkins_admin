@@ -62,6 +62,8 @@
 /data/loads/entrezgene/entrezgeneload/output/monkey/*.log
 /data/loads/entrezgene/entrezgeneload/output/xenopus/*.diagnostics
 /data/loads/entrezgene/entrezgeneload/output/xenopus/*.log
+/data/loads/mgi/humancoordload/logs/humancoordload.proc.log
+/data/loads/mgi/humancoordload/logs/humancoordload.diag.log
 /data/loads/mgi/seqcacheload/logs/seqdummy.log
 /data/loads/mgi/seqcacheload/logs/seqmarker.log
 /data/loads/mgi/seqcacheload/logs/seqprobe.log
