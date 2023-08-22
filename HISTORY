@@ -1,3 +1,9 @@
+TAG: jenkins_admin-6-0-22-9
+DATE: 8/22/2023
+STAFF: dbm
+CHANGES:
+1) logList.tasks.daily: add log for secondary triage
+
 TAG: jenkins_admin-6-0-22-8
 DATE: 8/9/2023
 STAFF: dbm
