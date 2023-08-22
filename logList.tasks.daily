@@ -9,6 +9,7 @@
 /data/loads/mgi/nomenload/logs/batchrename.diag.log
 /data/loads/mgi/littriageload/logs/littriageload.proc.log
 /data/loads/mgi/littriageload/logs/littriageload.diag.log
+/data/loads/mgi/littriageload/logs/secondary.log
 /data/loads/mgi/vocload/runTimeMCV/log.txt
 /data/loads/mgi/vocload/runTimeMCV/fullLog.txt
 /data/loads/mgi/mcvload/logs/mcvload.proc.log
