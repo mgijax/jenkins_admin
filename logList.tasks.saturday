@@ -80,6 +80,8 @@
 /data/loads/mgi/tssgeneload/logs/tssgeneload.diag.log
 /data/loads/mgi/curatoralleleload/logs/curatoralleleload.proc.log
 /data/loads/mgi/curatoralleleload/logs/curatoralleleload.diag.log
+/data/loads/mgi/curatorbulkindexload/logs/curatorbulkindexload.proc.log
+/data/loads/mgi/curatorbulkindexload/logs/curatorbulkindexload.diag.log
 /data/loads/mgi/curatorstrainload/logs/curatorstrainload.proc.log
 /data/loads/mgi/curatorstrainload/logs/curatorstrainload.diag.log
 /data/loads/mgi/qtlcandidateload/logs/qtlcandidateload.proc.log
