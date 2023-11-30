@@ -1,3 +1,10 @@
+TAG: jenkins_admin-6-0-22-14
+DATE: 11/30/2023
+STAFF: dbm
+CHANGES:
+1) logList.tasks.saturday: replaced with logList.tasks.sunday1
+2) logList.tasks.sunday: replaced with logList.tasks.sunday2
+
 TAG: jenkins_admin-6-0-22-13
 DATE: 9/19/2023
 STAFF: dbm
