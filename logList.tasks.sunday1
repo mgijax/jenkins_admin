@@ -2,8 +2,6 @@
 # Sundaytasks1 log files
 #
 /data/loads/geo/geoload/logs/geoload.log
-/data/loads/arrayexpress/arrayexpload/logs/arrayexpload.proc.log
-/data/loads/arrayexpress/arrayexpload/logs/arrayexpload.diag.log
 /data/loads/pro/proload/logs/proload.proc.log
 /data/loads/pro/proload/logs/proload.diag.log
 /data/loads/mgi/vocload/runTimeRV/log.txt
