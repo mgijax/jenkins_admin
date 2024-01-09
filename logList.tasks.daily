@@ -52,6 +52,12 @@
 /data/loads/go/gomousenoctua/logs/gomousenoctua.diag.log
 /data/loads/mgi/mgicacheload/logs/go_annot_extensions_display_load.csh.log
 /data/loads/mgi/mgicacheload/logs/go_isoforms_display_load.csh.log
+/data/loads/mgi/curatoralleleload/logs/curatoralleleload.proc.log
+/data/loads/mgi/curatoralleleload/logs/curatoralleleload.diag.log
+/data/loads/mgi/curatorbulkindexload/logs/curatorbulkindexload.proc.log
+/data/loads/mgi/curatorbulkindexload/logs/curatorbulkindexload.diag.log
+/data/loads/mgi/curatorstrainload/logs/curatorstrainload.proc.log
+/data/loads/mgi/curatorstrainload/logs/curatorstrainload.diag.log
 /data/loads/mgi/mgicacheload/logs/gxdexpression.csh.log
 /data/loads/mgi/pgdbutilities/logs/run_BIB_updateWFStatus.csh.log
 /data/reports/qcreports_db/logs/qcnightly_reports.csh.log
