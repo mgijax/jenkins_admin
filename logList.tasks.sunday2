@@ -37,8 +37,6 @@
 /data/loads/mgi/vocload/runTimeDO/fullLog.txt
 /data/loads/mgi/vocload/runTimeSO/log.txt
 /data/loads/mgi/vocload/runTimeSO/fullLog.txt
-/data/loads/mgi/vocload/runTimeHPO/log.txt
-/data/loads/mgi/vocload/runTimeHPO/fullLog.txt
 /data/loads/omim_hpo/logs/omim_hpoload.proc.log
 /data/loads/omim_hpo/logs/omim_hpoload.diag.log
 /data/loads/mp_hpo/logs/mp_hpoload.proc.log

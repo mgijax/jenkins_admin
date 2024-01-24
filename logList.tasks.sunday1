@@ -1,6 +1,8 @@
 #
 # Sundaytasks1 log files
 #
+/data/loads/mgi/vocload/runTimeHPO/log.txt
+/data/loads/mgi/vocload/runTimeHPO/fullLog.txt
 /data/loads/geo/geoload/logs/geoload.log
 /data/loads/pro/proload/logs/proload.proc.log
 /data/loads/pro/proload/logs/proload.diag.log
