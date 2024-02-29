@@ -4,6 +4,8 @@
 /data/loads/mgi/vocload/runTimeHPO/log.txt
 /data/loads/mgi/vocload/runTimeHPO/fullLog.txt
 /data/loads/geo/geoload/logs/geoload.log
+/data/loads/mgi/ae_htload/logs/ae_htload.proc.log
+/data/loads/mgi/ae_htload/logs/ae_htload.diag.log
 /data/loads/pro/proload/logs/proload.proc.log
 /data/loads/pro/proload/logs/proload.diag.log
 /data/loads/mgi/vocload/runTimeRV/log.txt
