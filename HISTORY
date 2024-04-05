@@ -1,3 +1,11 @@
+TAG: jenkins_admin-6-0-23-1
+DATE: 04/05/2024
+STAFF: lec
+CHANGES:
+/data/loads/go -> /data/loads/mgi/goload
+#       modified:   logList.tasks.daily
+#       modified:   logList.tasks.sunday2
+
 TAG: jenkins_admin-6-0-22-15
 DATE: 11/30/2023
 STAFF: dbm
