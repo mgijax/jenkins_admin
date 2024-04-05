@@ -49,8 +49,8 @@
 /data/loads/pro/proisoformload/logs/proisoform.diag.log
 /data/loads/mgi/goload/logs/goload.diag.log
 /data/loads/mgi/goload/output/goload.annot.diagnostics
-/data/loads/mgi/mgicacheload/logs/go_annot_extensions_display_load.csh.log
-/data/loads/mgi/mgicacheload/logs/go_isoforms_display_load.csh.log
+/data/loads/mgi/goload/logs/go_annot_extensions_display.log
+/data/loads/mgi/goload/logs/go_isoforms_display.log
 /data/loads/mgi/curatoralleleload/logs/curatoralleleload.proc.log
 /data/loads/mgi/curatoralleleload/logs/curatoralleleload.diag.log
 /data/loads/mgi/curatorbulkindexload/logs/curatorbulkindexload.proc.log

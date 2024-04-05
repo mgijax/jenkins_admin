@@ -86,8 +86,8 @@
 /data/loads/pro/proisoformload/logs/proisoform.diag.log
 /data/loads/mgi/goload/logs/goload.diag.log
 /data/loads/mgi/goload/output/goload.annot.diagnostics
-/data/loads/mgi/mgicacheload/logs/go_annot_extensions_display_load.csh.log
-/data/loads/mgi/mgicacheload/logs/go_isoforms_display_load.csh.log
+/data/loads/mgi/goload/logs/go_annot_extensions_display.log
+/data/loads/mgi/goload/logs/go_isoforms_display.log
 /data/loads/mgi/pgdbutilities/logs/run_BIB_updateWFStatus.csh.log
 /data/reports/qcreports_db/logs/qcweekly_reports.csh.log
 /data/reports/qcreports_db/logs/qcsunday_reports.csh.log
