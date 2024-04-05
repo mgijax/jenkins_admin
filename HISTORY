@@ -6,6 +6,26 @@ CHANGES:
 #       modified:   logList.tasks.daily
 #       modified:   logList.tasks.sunday2
 
+TAG: jenkins_admin-6-0-23-3
+DATE: 2/29/2024
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday1: added logs for GXD High Throughput ArrayExpress load
+
+TAG: jenkins_admin-6-0-23-2
+DATE: 1/24/2024
+STAFF: dbm
+CHANGES:
+1) logList.tasks.sunday1: added logs HPO Vocab Load
+2) logList.tasks.sunday2: removed logs HPO Vocab Load
+
+TAG: jenkins_admin-6-0-23-1
+DATE: 1/9/2024
+STAFF: dbm
+CHANGES:
+1) logList.tasks.daily: added logs for curator loads
+>>>>>>> ec0251283710820d0580d88aa623aec2ec17d91f
+
 TAG: jenkins_admin-6-0-22-15
 DATE: 11/30/2023
 STAFF: dbm
