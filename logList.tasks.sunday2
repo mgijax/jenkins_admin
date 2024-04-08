@@ -19,8 +19,7 @@
 /data/loads/uniprot/uniprotload/uniprotload_override/logs/override.diag.log
 /data/loads/uniprot/uniprotload/uniprotload_override/logs/override_assoc.proc.log
 /data/loads/uniprot/uniprotload/uniprotload_override/logs/override_assoc.diag.log
-/data/loads/uniprot/uniprotload/output/go_ip_annot.txt.diagnostics
-/data/loads/uniprot/uniprotload/output/go_spkw_annot.txt.diagnostics
+/data/loads/uniprot/uniprotload/output/marker_gg_annot.txt.diagnostics
 /data/loads/uniprot/uniprotload/output/marker_ip_annot.txt.diagnostics
 /data/loads/pirsf/pirsfload/output/annotfile.diagnostics
 /data/loads/pirsf/pirsfload/logs/pirsfload.proc.log
