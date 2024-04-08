@@ -1,9 +1,11 @@
+TAG: jenkins_admin-6-0-23-6
 TAG: jenkins_admin-6-0-23-5
 TAG: jenkins_admin-6-0-23-4
-DATE: 04/05/2024
+DATE: 04/05/2024, 04/08/2024
 STAFF: lec
 CHANGES:
 /data/loads/go -> /data/loads/mgi/goload
+remove unitprot/output/go_ec_annot.txt.diagnostics/go_ec_annot.txt.diagnostics/go_ec_annot.txt.diagnostics
 #       modified:   logList.tasks.daily
 #       modified:   logList.tasks.sunday2
 
