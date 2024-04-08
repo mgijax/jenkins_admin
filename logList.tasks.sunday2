@@ -10,7 +10,6 @@
 /data/loads/mgi/partnerofload/logs/partnerofload.diag.log
 /data/loads/entrezgene/egload/logs/entrezgene.proc.log
 /data/loads/entrezgene/egload/logs/entrezgene.diag.log
-/data/loads/uniprot/uniprotload/output/go_ec_annot.txt.diagnostics
 /data/loads/mgi/vocload/runTimeIP/log.txt
 /data/loads/mgi/vocload/runTimeIP/fullLog.txt
 /data/loads/uniprot/uniprotload/logs/uniprotload.proc.log
