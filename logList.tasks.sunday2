@@ -63,8 +63,6 @@
 /data/loads/mgi/seqcacheload/logs/seqmarker.log
 /data/loads/mgi/seqcacheload/logs/seqprobe.log
 /data/loads/mgi/mrkcacheload/logs/mrkprobe.log
-/data/loads/nextprot/nextprotload/logs/nextprotload.proc.log
-/data/loads/nextprot/nextprotload/logs/nextprotload.diag.log
 /data/loads/homology/alliance_clusteredload/logs/alliance_clusteredload.proc.log
 /data/loads/homology/alliance_clusteredload/logs/alliance_clusteredload.diag.log
 /data/loads/homology/alliance_directload/logs/alliance_directload.proc.log

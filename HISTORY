@@ -1,3 +1,12 @@
+TAG: jenkins_admin-6-0-25-1
+DATE: 04/22/2024
+STAFF: lec
+wts2-1647/e4g-220/Retire neXtProt from MGI
+remove nextprot
+logList.tasks.sunday2:/data/loads/nextprot/nextprotload/logs/nextprotload.proc.log
+logList.tasks.sunday2:/data/loads/nextprot/nextprotload/logs/nextprotload.diag.log
+#       modified:   logList.tasks.sunday2
+
 TAG: jenkins_admin-6-0-23-6
 TAG: jenkins_admin-6-0-23-5
 TAG: jenkins_admin-6-0-23-4
